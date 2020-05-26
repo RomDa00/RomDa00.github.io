@@ -1,0 +1,201 @@
+@import url(./fonts.css);
+@import url(./partials/_variables.css);
+@import url(./partials/_global.css);
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 0rem 20rem;
+    width: 100%;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main{
+    background: url(../imgs/background.jpg) no-repeat fill fixed
+}
+
+.site-main .site-banner h3{
+    padding-left: 36%;
+    padding-top: 10rem;
+    font-weight: 500;
+}
+
+.about-area .about-title h2::after{
+    content: "";
+    height: 2px;
+    width: 15vw;
+    background: black;
+    display: inline-block;
+    margin-left: 0%;
+    transform: translateY(-0px);
+}
+
+/* .about-area .about-image > img{
+    width: 800px;
+    height: 450px;
+} */
+
+.site-main .site-banner h1{
+    font-size: 5rem;
+    padding-left: 35%;
+    white-space: nowrap;
+}
+
+.site-main .site-banner h4{
+    font-size: 1.5rem;
+    padding-left: 36%;
+}
+
+.site-main .site-buttons {
+    padding-left: 36%;
+    padding-bottom: 10rem;
+}
+
+/* .site-main .site-banner .banner-image > img{
+    padding: 3rem 0;
+    width: 90rem;
+} */
+
+/* .site-main .about-area{
+    padding: 8rem 12rem;
+    background: url(../imgs/joanna-kosinska-mjC9apK53a8-unsplash.jpg) no-repeat center center fixed;
+} */
+
+.site-main .about-area .about-title h2 > span {
+    font: normal bold 49px/ 60px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+.site-main .about-area{
+    padding-bottom: 10rem;
+}
+
+.site-main .about-area .about-image > img{
+    padding-left: 17rem;
+    padding-top: 2rem;
+    width: 60rem;
+}
+
+.section-experience .experience-pbs{
+    padding-left: 25rem;
+}
+
+.section-experience .experience-smart{
+    padding-left: 10rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: scale-down;
+}
+
+.section-projects{
+    padding-top: 10rem;
+}
+
+.fas{
+    color: #D4AC0D;
+    text-align: center;
+    padding: 30px;
+    font-size: 46px;
+}
+
+.projects-android{
+    color: green;
+    text-align: center;
+    padding: 30px;
+    font-size: 46px;
+}
+
+.projects-java{
+    color: darkblue;
+    text-align: center;
+    padding: 30px;
+    font-size: 46px;
+}
+
+.projects-python{
+    color: yellowgreen;
+    text-align: center;
+    padding: 30px;
+    font-size: 46px;
+}
+
+.projects-book{
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 46px;
+}
+
+.card{
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.01);
+    transition: box-shadow 0.3s ease-in-out;
+    border:1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+.section-projects h3{
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 600;
+}
+
+.section-projects p{
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: #839192;
+    line-height: 1.6;
+    font-weight: 500;
+    padding-top: 5px;
+}
+
+.contact-area .section-contact{
+    padding-top: 20rem;
+}
+
+.contact-area .contact-buttons {
+    padding-left: 45%;
+    padding-bottom: 10rem;
+}
+
+.contact-area .contact-text h3{
+    font-size: 15px;
+    color: #839192;
+    font-weight: 500;
+}

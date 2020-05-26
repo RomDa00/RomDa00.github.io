@@ -1,0 +1,55 @@
+      <div class="section-projects">
+        <div class="row">
+          <div class="col-md-4 experience-pbs">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row no-gutters">
+                <div class="col-md-4">
+                  <img src="/imgs/CryptoCheck/CC_Picture1.png" class="card-img" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Crypto Check</h5>
+                    <p class="card-text">Android application used to get update to date prices on different cryptocurrencies</p>
+                    <p class="card-text"><small class="text-muted">Java, SQLite</small></p>
+                    <a href="https://play.google.com/store/apps/details?id=crypto.romain.cryptocheck&hl=en" class="btn btn-primary">Google Play Store</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4 experience-pbs">
+          <div class="card mb-3" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="/imgs/CryptoCheck/CC_Picture1.png" class="card-img" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Tic Tac Toe</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Java</small></p>
+                  <a href="https://github.com/RomDa00/Tic-Tac-Toe-Game" class="btn btn-primary">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 experience-pbs">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="/imgs/CryptoCheck/CC_Picture1.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Text Editor</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Python</small></p>
+                <a href="https://github.com/RomDa00/Python-Text-Manager" class="btn btn-primary">Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
