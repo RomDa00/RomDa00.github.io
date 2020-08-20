@@ -14,50 +14,62 @@
     .site-main .site-banner .site-title h1{
         font-size: 41px;
     }
-
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 15rem    !important;
-    }
-
-    .site-main > .services-area .services{
-        width: 13rem;
-    }
-
 }
 
-
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 792px){
+@media only screen and (max-width: 800px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
-        letter-spacing: 10px;
+        letter-spacing: px;
     }
 
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
-        width: 49%;
-    }
-
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
-    }
-
-    .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
-    }
-
-    .site-main .about-area .about-title p{
+    .site-main .about-area .about-title .para p{
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
-        width: 20rem;
-        margin: 5%;
+    .site-main .Experience-area .section-experience h1{
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .section-experience .experience-pbs{
+        padding-left: 5%;
+    }
+
+    .section-experience .experience-smart{
+        padding-left: 5%;
+    }
+
+    .site-main .about-area .about-image > img{
+        padding-left: 0;
+        width: 18rem;
+    }
+
+    .site-main .site-banner h3{
+        padding-left: 5%;
+        padding-top: 5rem;
+        font-weight: 500;
+    }
+    
+    .site-main .site-banner h1{
+        font-size: 5rem;
+        padding-left: 5%;
+        white-space: nowrap;
+        font-size: 50px;
+    }
+
+    .site-main .site-banner h4{
+        font-size: 1.5rem;
+        padding-left: 5%;
+    }
+    
+    .site-main .site-buttons {
+        padding-left: 5%;
+        padding-bottom: 0rem;
+    }
+
+    .contact-area .contact-buttons {
+        padding-left: 36%;
+        padding-bottom: 10rem;
     }
 }
 
@@ -78,6 +90,4 @@
     .site-main .about-area{
         padding: 3% 4%;
     }
-
-
 }

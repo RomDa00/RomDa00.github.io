@@ -41,6 +41,10 @@
     font-weight: 500;
 }
 
+.site-main .Experience-area .section-experience h1{
+    text-align: center;
+}
+
 .about-area .about-title h2::after{
     content: "";
     height: 2px;
@@ -97,7 +101,7 @@
 .site-main .about-area .about-image > img{
     padding-left: 17rem;
     padding-top: 2rem;
-    width: 60rem;
+    width: 45rem;
 }
 
 .section-experience .experience-pbs{
