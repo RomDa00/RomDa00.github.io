@@ -76,16 +76,6 @@
     padding-bottom: 10rem;
 }
 
-/* .site-main .site-banner .banner-image > img{
-    padding: 3rem 0;
-    width: 90rem;
-} */
-
-/* .site-main .about-area{
-    padding: 8rem 12rem;
-    background: url(../imgs/joanna-kosinska-mjC9apK53a8-unsplash.jpg) no-repeat center center fixed;
-} */
-
 .site-main .about-area .about-title h2 > span {
     font: normal bold 49px/ 60px;
 }
@@ -104,12 +94,8 @@
     width: 45rem;
 }
 
-.section-experience .experience-pbs{
+.section-experience .experience-JOB{
     padding-left: 25rem;
-}
-
-.section-experience .experience-smart{
-    padding-left: 10rem;
 }
 
 .card-img-top {
@@ -246,7 +232,7 @@
 }
 
 .button.secondary-button:hover{
-    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
-    color: whitesmoke;
-    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
 }
